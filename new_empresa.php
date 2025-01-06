@@ -10,7 +10,7 @@
 <h1>Adicionar empresa</h1>
     <form action="include/add.php?s=empresa" method="POST">
         <label for="nome">Empresa:</label>
-        <input type="text" name="nome" required>
+        <input type="text" name="nome" required placeholder="Insirar o nome da empresa">
         
         <button type="submit">Inserir</button>
     </form>
