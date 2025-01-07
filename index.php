@@ -32,7 +32,7 @@ require "include/get.php"
             </select>
 
             <label for="filter_valor">Valor:</label>
-            <input type="text" name="filter_valor" placeholder="0,00">
+            <input type="text" name="filter_valor" placeholder="0,00" value="<?= isset($_POST["filter_valor"]) ? $_POST["filter_valor"] : ""; ?>">
             <select name="filter_valor_condicao">
                 <option <?= isset($_POST["filter_valor_condicao"]) && $_POST["filter_valor_condicao"] == "igual"  ? "selected" : "" ?> value="igual">Igual</option>
                 <option <?= isset($_POST["filter_valor_condicao"]) && $_POST["filter_valor_condicao"] == "maior"  ? "selected" : "" ?> value="maior">Maior</option>
