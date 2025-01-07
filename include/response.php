@@ -1,4 +1,7 @@
 <?php
+/*
+Classe de resposta e redirecionamento (PopUp)
+*/
 class Response
 {
     public function __construct()
