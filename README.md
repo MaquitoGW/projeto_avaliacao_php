@@ -2,10 +2,6 @@
 
 Este projeto foi desenvolvido utilizando **PHP 8.2** e integra um sistema de contas a pagar com base de dados em MySQL.
 
-### 📂 Estrutura do Projeto
-
-O sistema utiliza o banco de dados MySQL para armazenar as informações de contas e empresas. Abaixo, estão as instruções para configurar e rodar o projeto.
-
 ### Banco de Dados
 
 O script SQL necessário para criar as tabelas do banco de dados está localizado no seguinte caminho:
